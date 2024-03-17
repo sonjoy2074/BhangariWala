@@ -1,0 +1,28 @@
+.footer{
+    background-color: #79bb71;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer li{
+    list-style: none;
+    padding: 10px;
+}
+.footer ul{
+    align-items: center;
+}
+.com-info{
+    display: flex;
+}
+.logo1{ 
+    height: 60px;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+.footer .icon{
+  margin-top:30px;
+}
