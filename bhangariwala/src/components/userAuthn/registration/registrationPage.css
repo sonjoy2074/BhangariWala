@@ -1,0 +1,40 @@
+.refPage{
+    display: flex;
+    flex-direction: row;
+    margin:10px 23% 10px 20%;
+    border: 2px solid #79bb71;
+    border-radius: 6px;
+
+
+}
+.regImg img{
+    border-radius:10px;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.userInfo input{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+}
+.userInfo textarea{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+}
+.userInfo .datepicker{
+    width: 70%;
+    margin-left:4px;
+}
+.userInfo .subBtn{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+    background-color: #8dbd88;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
