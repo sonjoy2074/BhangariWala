@@ -1,0 +1,45 @@
+.sr-img {
+    background-color: aqua;
+    background-image: url('../../assets/images/services/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 380px;
+    width: 100%;
+    height: 380px;
+  }
+.sr-img h1{
+    margin: 0;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:80px;
+    margin-left:10px;
+}
+.block .b1-info{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.b-img img{
+    border-radius: 50px;
+    width: 700px;
+    height: 400px;
+    margin-right:4px;
+    margin-bottom: 5px;
+}
+.block  button{
+    background-color: #79bb71;
+    color: white;
+    padding: 10px 20px;
+    height:50px;
+    width: 200px;
+    border: none;
+    font-size: large;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.block .b2-info{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+  
