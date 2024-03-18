@@ -1,0 +1,13 @@
+.profile-container {
+  background-color: #74b875;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto; /* Adjust margin as needed */
+}
+
+  
+  .profile-container .MuiTextField-root {
+    background-color: #fff;
+  }
+  
