@@ -44,6 +44,10 @@ const UserProfile = () => {
 </Box>
 
       <Box sx={{ flex: '70%',mr: 5}}>
+      <Typography variant="h4" align="center" gutterBottom>
+    User Information
+  </Typography>
+  <Box sx={{ borderBottom: '2px solid #4CAF50', marginBottom: '20px' }} />
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
           <TextField
             label="Name"
