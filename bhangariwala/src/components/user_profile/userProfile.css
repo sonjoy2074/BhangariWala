@@ -1,13 +1,16 @@
 .profile-container {
-  background-color: #74b875;
+  background-color: #fff; /* Set background to white */
   padding: 20px;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 100%;
   margin: 20px auto; /* Adjust margin as needed */
+  display: flex; /* Make it flex container */
 }
 
-  
-  .profile-container .MuiTextField-root {
-    background-color: #fff;
-  }
-  
+.profile-container .MuiTextField-root {
+  background-color: #fff;
+}
+
+.profile-container .MuiButton-containedPrimary {
+  margin-top: 10px; /* Adjust top margin of the button */
+}
